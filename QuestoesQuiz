@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class SistemaPerguntas {
+
+    // Função para exibir o cabeçalho
+    private static void exibirCabecalho(String nomeFaculdade, String nomeAluno, String nomeProfessor) {
+        System.out.println("==================================================");
+        System.out.println("Nome da Faculdade: " + nomeFaculdade);
+        System.out.println("Nome do Aluno: " + nomeAluno);
+        System.out.println("Nome do Professor: " + nomeProfessor);
+        System.out.println("==================================================");
+        System.out.println("Bem-vindo(a)! Você responderá 15 perguntas de múltipla escolha sobre o tema escolhido.");
+        System.out.println("Vamos começar!");
+        System.out.println("==================================================");
+    }
+}

@@ -111,5 +111,15 @@ public class Perguntas {
             questoes[9].opcaoD = "d) África";
             questoes[9].opcaoE = "e) Oceania";
             questoes[9].correta = "d";
+
+ // Questão 10
+            questoes[10] = new Questao();
+            questoes[10].pergunta = "Qual é a principal linguagem de programação utilizada no desenvolvimento web?";
+            questoes[10].opcaoA = "a) Python";
+            questoes[10].opcaoB = "b) Java";
+            questoes[10].opcaoC = "c) JavaScript";
+            questoes[10].opcaoD = "d) C++";
+            questoes[10].opcaoE = "e) Ruby";
+            questoes[10].correta = "c";
 }
 }

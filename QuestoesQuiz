@@ -72,5 +72,14 @@ public class Perguntas {
         questoes[5].opcaoE = "E) Nenhuma das opções";
         questoes[5].correta = "B";
 
+// Questão 6
+            questoes[6] = new Questao();
+            questoes[6].pergunta = "Qual é o elemento químico representado pela letra O?";
+            questoes[6].opcaoA = "a) Ouro";
+            questoes[6].opcaoB = "b) Oxigênio";
+            questoes[6].opcaoC = "c) Prata";
+            questoes[6].opcaoD = "d) Carbono";
+            questoes[6].opcaoE = "e) Hidrogênio";
+            questoes[6].correta = "b";
 }
 }

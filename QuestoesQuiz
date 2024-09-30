@@ -92,6 +92,15 @@ public class Perguntas {
             questoes[6].opcaoE = "e) Guepardo";
             questoes[6].correta = "b";
 
+  // Questão 8
+            questoes[7] = new Questao();
+            questoes[7].pergunta = "Qual é o maior oceano do mundo?";
+            questoes[7].opcaoA = "a) Oceano Atlântico";
+            questoes[7].opcaoB = "b) Oceano Índico";
+            questoes[7].opcaoC = "c) Oceano Pacífico";
+            questoes[7].opcaoD = "d) Oceano Ártico";
+            questoes[7].opcaoE = "e) Oceano Antártico";
+            questoes[7].correta = "c";
 
 }
 }

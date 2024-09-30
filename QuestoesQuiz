@@ -103,13 +103,13 @@ public class Perguntas {
             questoes[8].correta = "c";
 
   // Questão 9
-            questoes[8] = new Questao();
-            questoes[8].pergunta = "Qual é o continente onde se encontra o Egito?";
-            questoes[8].opcaoA = "a) América";
-            questoes[8].opcaoB = "b) Europa";
-            questoes[8].opcaoC = "c) Ásia";
-            questoes[8].opcaoD = "d) África";
-            questoes[8].opcaoE = "e) Oceania";
-            questoes[8].correta = "d";
+            questoes[9] = new Questao();
+            questoes[9].pergunta = "Qual é o continente onde se encontra o Egito?";
+            questoes[9].opcaoA = "a) América";
+            questoes[9].opcaoB = "b) Europa";
+            questoes[9].opcaoC = "c) Ásia";
+            questoes[9].opcaoD = "d) África";
+            questoes[9].opcaoE = "e) Oceania";
+            questoes[9].correta = "d";
 }
 }

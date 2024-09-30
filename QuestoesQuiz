@@ -81,5 +81,17 @@ public class Perguntas {
             questoes[6].opcaoD = "d) Carbono";
             questoes[6].opcaoE = "e) Hidrogênio";
             questoes[6].correta = "b";
+
+   // Questão 7
+            questoes[6] = new Questao();
+            questoes[6].pergunta = "Qual animal é conhecido como 'rei da selva'?";
+            questoes[6].opcaoA = "a) Tigre";
+            questoes[6].opcaoB = "b) Leão";
+            questoes[6].opcaoC = "c) Elefante";
+            questoes[6].opcaoD = "d) Urso";
+            questoes[6].opcaoE = "e) Guepardo";
+            questoes[6].correta = "b";
+
+
 }
 }

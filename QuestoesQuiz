@@ -22,104 +22,180 @@ public class Perguntas {
 
         Main.Questao[] questoes = new Questao[totalQuestoes];
 
-        // Questão 1
-        questoes[1] = new Questao();
-        questoes[1].pergunta = "Qual dos seguintes gráficos é mais adequado para mostrar a variação de dados ao longo do tempo?";
-        questoes[1].opcaoA = "a) Gráfico de barras";
-        questoes[1].opcaoB = "b) Gráfico de linhas";
-        questoes[1].opcaoC = "c) Gráfico de pizza";
-        questoes[1].opcaoD = "d) Gráfico de dispersão";
-        questoes[1].opcaoE = "e) Histograma";
-        questoes[1].correta = "b";
+// Questão 1
+questoes[0] = new Questao();
+questoes[0].pergunta = "Qual é o maior planeta do sistema solar?";
+questoes[0].opcaoA = "A) Marte";
+questoes[0].opcaoB = "B) Terra";
+questoes[0].opcaoC = "C) Júpiter";
+questoes[0].opcaoD = "D) Saturno";
+questoes[0].opcaoE = "E) Urano";
+questoes[0].correta = "C";
 
-        // Questão 2
-        questoes[2] = new Questao();
-        questoes[2].pergunta = "Em um gráfico de barras, o que as barras representam?";
-        questoes[2].opcaoA = "a) Proporções";
-        questoes[2].opcaoB = "b) Frequências";
-        questoes[2].opcaoC = "c) Categorias";
-        questoes[2].opcaoD = "d) Valores";
-        questoes[2].opcaoE = "e) Títulos";
-        questoes[2].correta = "c";
+// Questão 2
+questoes[1] = new Questao();
+questoes[1].pergunta = "Qual é o elemento químico representado pelo símbolo 'O'?";
+questoes[1].opcaoA = "A) Oxigênio";
+questoes[1].opcaoB = "B) Ouro";
+questoes[1].opcaoC = "C) Ósmio";
+questoes[1].opcaoD = "D) Oganesson";
+questoes[1].opcaoE = "E) Opium";
+questoes[1].correta = "A";
 
-        // Questão 3
-        questoes[3] = new Questao();
-        questoes[3].pergunta = "Qual dos seguintes gráficos é mais utilizado para exibir a relação entre duas variáveis?";
-        questoes[3].opcaoA = "a) Gráfico de barras";
-        questoes[3].opcaoB = "b) Gráfico de linhas";
-        questoes[3].opcaoC = "c) Gráfico de pizza";
-        questoes[3].opcaoD = "Gráfico de dispersão";
-        questoes[3].opcaoE = "Gráfico de setores";
-        questoes[3].correta = "d";
+// Questão 3
+questoes[2] = new Questao();
+questoes[2].pergunta = "Qual é a capital da França?";
+questoes[2].opcaoA = "A) Paris";
+questoes[2].opcaoB = "B) Londres";
+questoes[2].opcaoC = "C) Roma";
+questoes[2].opcaoD = "D) Madrid";
+questoes[2].opcaoE = "E) Berlim";
+questoes[2].correta = "A";
 
-        // Questão 4
-        questoes[4] = new Questao();
-        questoes[4].pergunta = "Qual é a principal função de um gráfico de pizza?";
-        questoes[4].opcaoA = "a) Mostrar a relação entre variáveis";
-        questoes[4].opcaoB = "b) Mostrar proporções";
-        questoes[4].opcaoC = "c) Comparar categorias";
-        questoes[4].opcaoD = "d) Exibir frequência";
-        questoes[4].opcaoE = "e) Exibir distribuição";
-        questoes[4].correta = "b";
+// Questão 4
+questoes[3] = new Questao();
+questoes[3].pergunta = "Quem pintou a Mona Lisa?";
+questoes[3].opcaoA = "A) Pablo Picasso";
+questoes[3].opcaoB = "B) Leonardo da Vinci";
+questoes[3].opcaoC = "C) Vincent van Gogh";
+questoes[3].opcaoD = "D) Michelangelo";
+questoes[3].opcaoE = "E) Salvador Dalí";
+questoes[3].correta = "B";
 
-        // Questão 5
-        questoes[5] = new Questao();
-        questoes[5].pergunta = "Qual é a posição de Harry Potter no time de Quadribol?";
-        questoes[5].opcaoA = "A) Batedor";
-        questoes[5].opcaoB = "B) Apanhador";
-        questoes[5].opcaoC = "C) Artilheiro";
-        questoes[5].opcaoD = "D) Goleiro";
-        questoes[5].opcaoE = "E) Nenhuma das opções";
-        questoes[5].correta = "B";
+// Questão 5
+questoes[4] = new Questao();
+questoes[4].pergunta = "Em que ano o Brasil proclamou sua independência?";
+questoes[4].opcaoA = "A) 1822";
+questoes[4].opcaoB = "B) 1808";
+questoes[4].opcaoC = "C) 1889";
+questoes[4].opcaoD = "D) 1500";
+questoes[4].opcaoE = "E) 1900";
+questoes[4].correta = "A";
 
 // Questão 6
-            questoes[6] = new Questao();
-            questoes[6].pergunta = "Qual é o elemento químico representado pela letra O?";
-            questoes[6].opcaoA = "a) Ouro";
-            questoes[6].opcaoB = "b) Oxigênio";
-            questoes[6].opcaoC = "c) Prata";
-            questoes[6].opcaoD = "d) Carbono";
-            questoes[6].opcaoE = "e) Hidrogênio";
-            questoes[6].correta = "b";
+questoes[5] = new Questao();
+questoes[5].pergunta = "Qual é o continente onde o deserto do Saara está localizado?";
+questoes[5].opcaoA = "A) Ásia";
+questoes[5].opcaoB = "B) África";
+questoes[5].opcaoC = "C) América do Sul";
+questoes[5].opcaoD = "D) Austrália";
+questoes[5].opcaoE = "E) Europa";
+questoes[5].correta = "B";
 
-   // Questão 7
-            questoes[7] = new Questao();
-            questoes[7].pergunta = "Qual animal é conhecido como 'rei da selva'?";
-            questoes[7].opcaoA = "a) Tigre";
-            questoes[7].opcaoB = "b) Leão";
-            questoes[7].opcaoC = "c) Elefante";
-            questoes[7].opcaoD = "d) Urso";
-            questoes[7].opcaoE = "e) Guepardo";
-            questoes[7].correta = "b";
+// Questão 7
+questoes[6] = new Questao();
+questoes[6].pergunta = "Qual é o maior órgão do corpo humano?";
+questoes[6].opcaoA = "A) Coração";
+questoes[6].opcaoB = "B) Fígado";
+questoes[6].opcaoC = "C) Pele";
+questoes[6].opcaoD = "D) Cérebro";
+questoes[6].opcaoE = "E) Pulmões";
+questoes[6].correta = "C";
 
-  // Questão 8
-            questoes[8] = new Questao();
-            questoes[8].pergunta = "Qual é o maior oceano do mundo?";
-            questoes[8].opcaoA = "a) Oceano Atlântico";
-            questoes[8].opcaoB = "b) Oceano Índico";
-            questoes[8].opcaoC = "c) Oceano Pacífico";
-            questoes[8].opcaoD = "d) Oceano Ártico";
-            questoes[8].opcaoE = "e) Oceano Antártico";
-            questoes[8].correta = "c";
+// Questão 8
+questoes[7] = new Questao();
+questoes[7].pergunta = "Quem foi o primeiro presidente dos Estados Unidos?";
+questoes[7].opcaoA = "A) George Washington";
+questoes[7].opcaoB = "B) Thomas Jefferson";
+questoes[7].opcaoC = "C) Abraham Lincoln";
+questoes[7].opcaoD = "D) Franklin D. Roosevelt";
+questoes[7].opcaoE = "E) John F. Kennedy";
+questoes[7].correta = "A";
 
-  // Questão 9
-            questoes[9] = new Questao();
-            questoes[9].pergunta = "Qual é o continente onde se encontra o Egito?";
-            questoes[9].opcaoA = "a) América";
-            questoes[9].opcaoB = "b) Europa";
-            questoes[9].opcaoC = "c) Ásia";
-            questoes[9].opcaoD = "d) África";
-            questoes[9].opcaoE = "e) Oceania";
-            questoes[9].correta = "d";
+// Questão 9
+questoes[8] = new Questao();
+questoes[8].pergunta = "Qual o nome da maior floresta tropical do mundo?";
+questoes[8].opcaoA = "A) Floresta Amazônica";
+questoes[8].opcaoB = "B) Floresta de Sherwood";
+questoes[8].opcaoC = "C) Floresta Negra";
+questoes[8].opcaoD = "D) Floresta do Congo";
+questoes[8].opcaoE = "E) Floresta do Havaí";
+questoes[8].correta = "A";
 
- // Questão 10
-            questoes[10] = new Questao();
-            questoes[10].pergunta = "Qual é a principal linguagem de programação utilizada no desenvolvimento web?";
-            questoes[10].opcaoA = "a) Python";
-            questoes[10].opcaoB = "b) Java";
-            questoes[10].opcaoC = "c) JavaScript";
-            questoes[10].opcaoD = "d) C++";
-            questoes[10].opcaoE = "e) Ruby";
-            questoes[10].correta = "c";
+// Questão 10
+questoes[9] = new Questao();
+questoes[9].pergunta = "Qual é o nome da série de livros de J.R.R. Tolkien que inspirou os filmes 'O Senhor dos Anéis'?";
+questoes[9].opcaoA = "A) As Crônicas de Nárnia";
+questoes[9].opcaoB = "B) A Terra das Sombras";
+questoes[9].opcaoC = "C) O Hobbit";
+questoes[9].opcaoD = "D) O Senhor dos Anéis";
+questoes[9].opcaoE = "E) Harry Potter";
+questoes[9].correta = "D";
+
+// Questão 11
+questoes[10] = new Questao();
+questoes[10].pergunta = "Qual é o animal símbolo da Austrália?";
+questoes[10].opcaoA = "A) Coala";
+questoes[10].opcaoB = "B) Canguru";
+questoes[10].opcaoC = "C) Emu";
+questoes[10].opcaoD = "D) Crocodilo";
+questoes[10].opcaoE = "E) Tigre";
+questoes[10].correta = "B";
+
+// Questão 12
+questoes[11] = new Questao();
+questoes[11].pergunta = "Quem é o autor de 'Dom Quixote de la Mancha'?";
+questoes[11].opcaoA = "A) Gabriel García Márquez";
+questoes[11].opcaoB = "B) Miguel de Cervantes";
+questoes[11].opcaoC = "C) Jorge Luis Borges";
+questoes[11].opcaoD = "D) Mario Vargas Llosa";
+questoes[11].opcaoE = "E) Pablo Neruda";
+questoes[11].correta = "B";
+
+// Questão 13
+questoes[12] = new Questao();
+questoes[12].pergunta = "Qual é o nome da missão que levou o homem à Lua pela primeira vez?";
+questoes[12].opcaoA = "A) Apollo 13";
+questoes[12].opcaoB = "B) Apollo 11";
+questoes[12].opcaoC = "C) Gemini 7";
+questoes[12].opcaoD = "D) Soyuz 1";
+questoes[12].opcaoE = "E) Discovery";
+questoes[12].correta = "B";
+
+// Questão 14
+questoes[13] = new Questao();
+questoes[13].pergunta = "Em que continente está localizado o Egito?";
+questoes[13].opcaoA = "A) Ásia";
+questoes[13].opcaoB = "B) África";
+questoes[13].opcaoC = "C) Europa";
+questoes[13].opcaoD = "D) Oceania";
+questoes[13].opcaoE = "E) América do Norte";
+questoes[13].correta = "B";
+
+// Questão 15
+questoes[14] = new Questao();
+questoes[14].pergunta = "Qual é a fórmula química da água?";
+questoes[14].opcaoA = "A) CO2";
+questoes[14].opcaoB = "B) H2O";
+questoes[14].opcaoC = "C) O2";
+questoes[14].opcaoD = "D) NaCl";
+questoes[14].opcaoE = "E) HCl";
+questoes[14].correta = "B";
+
+     
+            // Lógica para responder às questões
+            for (int i = 0; i < totalQuestoes; i++) {
+                questoes[i].escrevaQuestao();
+                String respostaUsuario = questoes[i].leiaResposta();
+                if (!questoes[i].isCorreta(respostaUsuario)) {
+                    erros++;
+                } else {
+                    acertos++;
+                }
+            }
+
+            // Calculando a porcentagem de acertos
+            double porcentagemAcertos = ((double) acertos / totalQuestoes) * 100;
+
+            // Exibindo o resultado final
+            System.out.println("Resultado Final:");
+            System.out.println("Você acertou " + acertos + " questões.");
+            System.out.println("Você errou " + erros + " questões.");
+            System.out.printf("Porcentagem de acertos: %.2f%%\n", porcentagemAcertos);
+        }
+    }
+
 }
 }
+}
+

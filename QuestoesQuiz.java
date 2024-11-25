@@ -233,4 +233,4 @@ public class SistemaPerguntas {
             System.out.println("Você errou " + erros + " questões.");
             System.out.printf("Porcentagem de acertos: %.2f%%\n", porcentagemAcertos);
         }
-    }
+}
